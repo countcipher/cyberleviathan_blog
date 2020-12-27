@@ -25,11 +25,11 @@ include "includes/header.php";
         =====================================-->
         <section class="BLOG__posts">
             <div class="container">
-                <div class="BLOG__card">
-                    <h1>hello</h1>
-                </div>
-
-                <div class="BLOG__card">
+            <div class="BLOG__card">
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
                     <img src="images/blog0.jpg" alt="">
                     <h1>hello</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum quod, quos provident tempore consequuntur cumque rerum sapiente nobis odio repudiandae?</p>
@@ -38,12 +38,41 @@ include "includes/header.php";
                 </div>
 
                 <div class="BLOG__card">
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <img src="images/blog0.jpg" alt="">
                     <h1>hello</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum quod, quos provident tempore consequuntur cumque rerum sapiente nobis odio repudiandae?</p>
+
+                    <a href="#"><button class="btn btn--cta">Read More &rarr; <i class="fas fa-arrow-right"></i></button></a>
                 </div>
 
                 <div class="BLOG__card">
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <img src="images/blog0.jpg" alt="">
                     <h1>hello</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum quod, quos provident tempore consequuntur cumque rerum sapiente nobis odio repudiandae?</p>
+
+                    <a href="#"><button class="btn btn--cta">Read More &rarr; <i class="fas fa-arrow-right"></i></button></a>
                 </div>
+
+                <div class="BLOG__card">
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <span class="outline"></span>
+                    <img src="images/blog0.jpg" alt="">
+                    <h1>hello</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum quod, quos provident tempore consequuntur cumque rerum sapiente nobis odio repudiandae?</p>
+
+                    <a href="#"><button class="btn btn--cta">Read More &rarr; <i class="fas fa-arrow-right"></i></button></a>
+                </div>
+                
             </div>
 
         </section>

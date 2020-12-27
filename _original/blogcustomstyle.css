@@ -28,7 +28,43 @@
   border-radius: 10px;
   display: flex;
   padding: 1.5rem;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative;
+  transition: .3s;
+  border: solid 2px transparent; }
+  .BLOG__card .outline {
+    transition: .5s linear;
+    z-index: -1; }
+    .BLOG__card .outline:nth-child(1) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 50%;
+      background-color: #000;
+      transition-delay: .2s; }
+    .BLOG__card .outline:nth-child(2) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 0%;
+      background-color: #000; }
+    .BLOG__card .outline:nth-child(3) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0%;
+      height: 50%;
+      background-color: #000;
+      transition-delay: .2s; }
+    .BLOG__card .outline:nth-child(4) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      height: 0%;
+      background-color: #000; }
   .BLOG__card img {
     height: 150px;
     width: 75%;
@@ -39,14 +75,24 @@
     margin-bottom: 1.5rem;
     transition: .3s;
     display: block; }
-  .BLOG__card:hover img {
+  .BLOG__card:hover {
+    border: solid 1px #fffbfc;
     box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
+    transition-delay: .3s; }
+  .BLOG__card:hover .outline:nth-child(1), .BLOG__card:hover .outline:nth-child(3) {
+    width: 100%; }
+  .BLOG__card:hover .outline:nth-child(2), .BLOG__card:hover .outline:nth-child(4) {
+    height: 100%; }
+  .BLOG__card:hover img {
+    box-shadow: 0 0 30px rgba(255, 251, 252, 0.4);
     border: solid 2px #fffbfc;
-    transform: scale(1.1); }
+    transform: scale(1.05);
+    transition-delay: .5s; }
   .BLOG__card:hover .btn {
     box-shadow: none;
     transform: scale(1.1);
-    color: #bf1e2e; }
+    color: #bf1e2e;
+    transition-delay: .5s; }
   .BLOG__card h1 {
     text-align: center; }
   .BLOG__card .btn {

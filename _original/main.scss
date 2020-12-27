@@ -20,6 +20,10 @@ $max-width: 1420px;
     box-shadow: 0 5px 30px rgba($color-black, .4);
 }
 
+@mixin box-shadow-white{
+    box-shadow: 0 0 30px rgba($color-white, .4);
+}
+
 .BLOG{
 
     &__wrapper{
@@ -60,6 +64,52 @@ $max-width: 1420px;
         display: flex;
         padding: 1.5rem;
         flex-direction: column;
+        position: relative;
+        transition: .3s;
+        border: solid 2px transparent;
+
+        & .outline{
+            transition: .5s linear;
+            z-index: -1;
+
+            &:nth-child(1){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 50%;
+                background-color: #000;
+                transition-delay: .2s;
+            }
+
+            &:nth-child(2){
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50%;
+                height: 0%;
+                background-color: #000;
+            }
+
+            &:nth-child(3){
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 0%;
+                height: 50%;
+                background-color: #000;
+                transition-delay: .2s;
+            }
+
+            &:nth-child(4){
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 50%;
+                height: 0%;
+                background-color: #000;
+            }
+        }
 
         & img{
             height: 150px;
@@ -74,16 +124,37 @@ $max-width: 1420px;
             display: block;
         }
 
-        &:hover img{
+        &:hover{
+            //color: $color-black !important;
+            //background: transparent;
+            border: solid 1px $color-white;
             @include box-shadow;
+            transition-delay: .3s;
+        }
+
+        &:hover .outline{
+
+            &:nth-child(1), &:nth-child(3){
+                width: 100%;
+            }
+
+            &:nth-child(2), &:nth-child(4){
+                height: 100%;
+            }
+        }
+
+        &:hover img{
+            @include box-shadow-white;
             border: solid 2px $color-white;
-            transform: scale(1.1);
+            transform: scale(1.05);
+            transition-delay: .5s;
         }
 
         &:hover .btn{
             box-shadow: none;
             transform: scale(1.1);
             color: $color-red;
+            transition-delay: .5s;
         }
 
         & h1{
