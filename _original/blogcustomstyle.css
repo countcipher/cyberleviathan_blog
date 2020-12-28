@@ -11,12 +11,13 @@
   margin-bottom: 4rem; }
 
 .BLOG__posts {
-  max-width: 1420px;
+  width: 75%;
   margin: 0 auto; }
   .BLOG__posts .container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
 
 .BLOG__card {
   background: rgba(35, 31, 32, 0.3);
@@ -76,7 +77,8 @@
     transition: .3s;
     display: block; }
   .BLOG__card:hover {
-    border: solid 1px #fffbfc;
+    background: transparent;
+    border: solid 2px #fffbfc;
     box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
     transition-delay: .3s; }
   .BLOG__card:hover .outline:nth-child(1), .BLOG__card:hover .outline:nth-child(3) {
@@ -101,9 +103,12 @@
     display: none; }
 
 .SIDEBAR {
-  background: green;
-  width: 100%;
-  height: 100vh; }
+  background: rgba(35, 31, 32, 0.3);
+  width: 25%;
+  margin-right: 0;
+  align-self: auto;
+  border-radius: 10px 0 0 0;
+  padding: 1.5rem; }
 
 @media (max-width: 1150px) {
   .BLOG__card h1 {
@@ -111,7 +116,11 @@
 
 @media (max-width: 1075px) {
   .BLOG__wrapper {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .BLOG__posts {
+    width: 100%; }
+  .SIDEBAR {
+    width: 100%; } }
 
 @media (max-width: 800px) {
   .BLOG__posts .container {
