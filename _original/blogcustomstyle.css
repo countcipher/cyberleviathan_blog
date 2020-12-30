@@ -120,7 +120,8 @@
   .BLOG__posts {
     width: 100%; }
   .SIDEBAR {
-    width: 100%; } }
+    width: 100%;
+    border-radius: 0; } }
 
 @media (max-width: 800px) {
   .BLOG__posts .container {
