@@ -27,13 +27,13 @@
   margin: 0 3rem 3rem 3rem;
   overflow: hidden;
   border-radius: 10px;
-  display: flex;
+  /* display: flex; */
   padding: 1.5rem;
   flex-direction: column;
   position: relative;
   transition: .3s;
   border: solid 2px transparent;
-
+  justify-content: flex-start;
 }
   .BLOG__card .outline {
     transition: .5s linear;

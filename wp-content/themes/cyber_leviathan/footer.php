@@ -29,7 +29,7 @@
             </div> -->
 
             <div class="box-1 footer__copyright">
-                &copy; <?php echo date("Y"); ?> <img src="images/logo_white.png" alt="">
+                &copy; <?php echo date("Y"); ?> <img src="<?php echo get_template_directory_uri();?>/images/logo_white.png" alt="">
             </div>
 
             <!-- <div class="box-1 footer__socialmedia">
@@ -41,6 +41,8 @@
         </section>
 
     </div><!---END OF FULL-WRAPPER-->
-    <script src="js/app.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/app.js"></script>
+
+    <?php wp_footer(); ?>
 </body>
 </html>
