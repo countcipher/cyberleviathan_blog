@@ -1,0 +1,33 @@
+.BLOG__header--single{
+    height: 250px !important;
+    min-height: 250px;
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7));
+}
+.BLOG__card--single{
+   width: 100%;
+   /* pointer-events: none; */
+}
+.BLOG__card--single img{
+    width: 90%;
+    height: auto;
+}
+.BLOG__card--single .post-title{
+    margin-bottom: 1.5rem;
+}
+.BLOG__card--single .content *{
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.BLOG__card--single:hover{
+    border-color: transparent;
+    box-shadow: none;
+    transition-delay: 0s;
+    background: rgba(35, 31, 32, 0.3);
+}
+.BLOG__card--single:hover img{
+    transform: none;
+    box-shadow: none;
+}
+.BLOG__card--single .outline{
+    display: none;
+}
