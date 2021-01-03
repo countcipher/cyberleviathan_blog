@@ -43,5 +43,13 @@
                         <a href="#"><li>Trident</li></a>
                     </ul> -->
                 </li>
+                <li class="nav__dropdown-box">
+                    <a href="https://www.cyberleviathan.com/contact.php"><span class="nav__link-title">Blog</span></a>
+                    <!-- <ul class="nav__dropdown-content">
+                        <a href="#"><li>What Is CL Advantage?</li></a>
+                        <a href="#"><li>Evolution</li></a>
+                        <a href="#"><li>Trident</li></a>
+                    </ul> -->
+                </li>
             </ul>
         </nav>
