@@ -84,7 +84,7 @@
   .BLOG__card:hover {
     background: transparent;
     border: solid 2px #fffbfc;
-    box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
+    /* box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); */
     transition-delay: .3s; }
   .BLOG__card:hover .outline:nth-child(1), .BLOG__card:hover .outline:nth-child(3) {
     width: 100%; }
