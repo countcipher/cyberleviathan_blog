@@ -44,7 +44,7 @@
                     </ul> -->
                 </li>
                 <li class="nav__dropdown-box">
-                    <a href="https://www.cyberleviathan.com/contact.php"><span class="nav__link-title">Blog</span></a>
+                    <a href="<?php echo  home_url('/');?>"><span class="nav__link-title">Blog</span></a>
                     <!-- <ul class="nav__dropdown-content">
                         <a href="#"><li>What Is CL Advantage?</li></a>
                         <a href="#"><li>Evolution</li></a>

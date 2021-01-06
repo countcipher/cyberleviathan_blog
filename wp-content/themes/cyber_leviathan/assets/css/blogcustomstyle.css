@@ -107,6 +107,21 @@
     background: transparent; }
   .BLOG__card .btn::after {
     display: none; }
+  .BLOG__card .time{
+    margin: 1rem 0 1rem 0;
+  }
+
+  .SEARCH .heading{
+    width: 100%;
+    padding-left: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .SEARCH .no-results{
+    width: 100%;
+    padding-left: 1.5rem;
+  }
 
 .SIDEBAR {
   /* background: rgba(35, 31, 32, 0.3); */
