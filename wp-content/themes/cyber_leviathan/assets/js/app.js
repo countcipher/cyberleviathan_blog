@@ -203,3 +203,20 @@ function indexAboutRowScroll(){
       //indexAbout__Row.children[0].style.opacity = "1";
    }
 }
+
+//===============================================================================================
+//SETS CSS PROPERTIES FOR NAV ONLOAD IF PAGE IS ALREADY SCROLLED DOWN (I.E. USER USES BACK ARROW)
+//===============================================================================================
+body.onload = function navWhiteOnScroll(){
+   if(window.pageYOffset >= 145 && window.innerWidth >= mobileBreakPoint){
+        nav.classList.add("onScrollWhite");
+        navLinkTitle.forEach(function(item){
+         item.classList.add("onScrollBlackColor");
+        });
+   }else{
+      nav.classList.remove("onScrollWhite");
+      navLinkTitle.forEach(function(item){
+         item.classList.remove("onScrollBlackColor");
+      })
+   }
+}

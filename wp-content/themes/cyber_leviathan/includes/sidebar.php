@@ -1,6 +1,6 @@
 <section class="SIDEBAR">
     <div class="side-widget search">
-        <form action="<?php esc_url(home_url('/')); ?>" method="get">
+        <form action="<?php echo home_url(); ?>" method="get">
             <input type="text" name="s" placeholder="Search...">
         </form>
     </div>
