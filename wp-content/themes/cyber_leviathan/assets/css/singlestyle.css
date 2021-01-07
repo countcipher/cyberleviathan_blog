@@ -18,6 +18,24 @@
     margin-bottom: 1.5rem;
     display: block;
 }
+.BLOG__card--single .content a{
+    display: inline;
+    margin-bottom: 0;
+    color: #bf1e2e;
+    font-weight: bold;
+}
+/* .BLOG__card--single .content h1,
+.BLOG__card--single .content h2,
+.BLOG__card--single .content h3,
+.BLOG__card--single .content h4,
+.BLOG__card--single .content h5,
+.BLOG__card--single .content p,
+.BLOG__card--single .content img,
+.BLOG__card--single .content ul,
+.BLOG__card--single .content ol,{
+    margin-bottom: 1.5rem;
+    display: block;
+}  */
 .BLOG__card--single:hover{
     border-color: transparent;
     box-shadow: none;
