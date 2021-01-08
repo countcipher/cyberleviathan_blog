@@ -24,6 +24,7 @@
         body,
         html{
             font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
         }
     </style>
 
