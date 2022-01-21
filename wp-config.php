@@ -28,7 +28,7 @@ define( 'DB_USER', 'root' );
 
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' 
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -47,15 +47,7 @@ define( 'DB_COLLATE', '' );
  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
  *
  * @since 2.6.0
- */
-define( 'AUTH_KEY',         'kJKxPc[ir.kkrGM%clyLp1`h79R(Icl$)]>s(JIZR]i4)/U{PmZdcR6>@+.z{hgZ' );
-define( 'SECURE_AUTH_KEY',  'xVbLgyyL? c+zn;Mwg|HC]:/Wrz>`h.18>N-Z@,.nf$Fbt(CUt_B%Re9wdV6)O}W' );
-define( 'LOGGED_IN_KEY',    '&YW+~Z&Qf<.X0t75[amYm2xgHw?0fwuAwc5DecC!edr_$Q-o/WI!js@)p8uj^,@]' );
-define( 'NONCE_KEY',        ']<.U(Ohj,;<9vFz?;aOo+#wi:!8hj5&UM&?zY 96Yb<z7vf2.7UI*#d/Nt44H3D+' );
-define( 'AUTH_SALT',        'sa~3%t[DH*1/t|B>X!3]S<BpSrVLQ_:[$S9@AT3Ys?vf?G?ChqwlGE-H5R%Ya d/' );
-define( 'SECURE_AUTH_SALT', 'K[4La&=%=NfdSw}dNp!7(r?d6X/Z<T8mMElv`;o}3` b!n[]0:Fd};4,xCF<}[d@' );
-define( 'LOGGED_IN_SALT',   'VD.B5buMDi!a)PdL6_9liS|s>K9oHw,?x-5{`PGA47vDm2!HqjVWR/pxV}/d?3xs' );
-define( 'NONCE_SALT',       '8LhZAK0xf*P;/SIwaR.!j/|fUv2$opy^4NGja6bM#d+EIC(b4:ZD&fJ1j-<;e|vr' );
+
 
 /**#@-*/
 
